@@ -1,7 +1,26 @@
 {
   "excursions": [
     {
-
+      "name": "Warszawa",
+      "description": "Jednodniowa wycieczka po Warszawie – stolica w pigułce. W programie Starówka i Łazienki Królewskie.",
+      "adultsPrice": "75",
+      "childrenPrice": "40",
+      "id": 1
+    },
+    {
+      "name": "Gdańsk",
+      "description": "Zwiedzanie Głównego i Starego Miasta: Brama Wyżynna, Targ Węglowy, Złota Brama, słynna ul. Długa, Dom Uphagena, Długi Targ, fontanna Neptuna, kościół Mariacki, ul. Mariacka, słynny Żuraw, Długie Pobrzeże, Zielona Brama, Wyspa Spichrzów, Ołowianka z Narodowym Muzeum Morskim i filharmonią, statek Sołdek, napis \"Gdańsk\" przejście kładką nad Motławą, pomnik Obrońców Poczty Polskiej, kościół św. Katarzyny, pomnik i mapa nieba Heweliusza, Ratusz Starego Miasto, zabytkowy Dworzec Główny.",
+      "adultsPrice": "65",
+      "childrenPrice": "50",
+      "id": 2
+    },
+    {
+      "name": "test 3",
+      "description": "test",
+      "adultsPrice": "11",
+      "childrenPrice": "5",
+      "id": 3
     }
-  ]
+  ],
+  "orders": []
 }

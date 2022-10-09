@@ -1,14 +1,15 @@
+/* eslint-disable no-console */
 /* eslint-disable no-alert */
 /* eslint-disable max-len */
 /* eslint-disable no-undef */
 /* eslint-disable no-use-before-define */
 /* eslint-disable no-unused-vars */
-import '../css/reset.css';
+
 import '../css/client.css';
 
-import ExecursionsAPI from './ExcursionsAPI';
+import ExcursionsAPI from './ExcursionsAPI';
 
-const excursions = new ExecursionsAPI();
+const excursions = new ExcursionsAPI();
 
 document.addEventListener('DOMContentLoaded', init);
 const ulEl = document.querySelector('.excursions');

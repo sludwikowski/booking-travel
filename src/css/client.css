@@ -4,6 +4,10 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+ul {
+	list-style: none;
+}
+
 .panel {
 	display: flex;
 	margin: 0 auto;
