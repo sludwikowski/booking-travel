@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Booking Travel</title>
-	</head>
-	<body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excusions App - Client</title>
+  </head>
+
+  <body>
+    <section class="panel">
+      <ul class="panel panel__excursions excursions">
+        <header class="excursions excursions__header">
+          <h2 class="excursions excursions__title" name="name">Białystok</h2>
+          <p class="excursions__description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, omnis. Ratione ut et error! Soluta quibusdam ducimus nemo officia obcaecati iusto deleniti. Obcaecati
+            quidem dolorem corrupti officia ea molestiae eveniet!
+          </p>
+        </header>
+        <form class="excursions__form">
+          <div class="excursions excursions__field">
+            <label class="excursions__field-name">
+              Dorosły: <span class="excursions__field-price">99</span>PLN x
+              <input class="excursions__field-input" name="adults" />
+            </label>
+          </div>
+          <div class="excursions__field">
+            <label class="excursions__field-name">
+              Dziecko: <span class="excursions__field-price">99</span>PLN x
+              <input class="excursions__field-input" name="children" />
+            </label>
+          </div>
+          <div class="excursions__field excursions__field--submit">
+            <input class="excursions__field-input excursions__field-input--submit" value="dodaj do zamówinia" type="submit" />
+          </div>
+        </form>
+      </ul>
+      <section class="panel panel__form">
+        <form class="panel__order order" novalidate>
+          <div class="order__total-price">
+            Razem:
+            <span class="order__total-price-value">199PLN</span>
+          </div>
+          <div class="order__field">
+            <label class="order__field-name">
+              Imię i nazwisko:
+              <input class="order__field-input" name="name" />
+            </label>
+          </div>
+          <div class="order__field">
+            <label class="order__field-name">
+              Email
+              <input class="order__field-input" name="email" />
+            </label>
+          </div>
+          <div class="order__field order__field--submit">
+            <input class="order__field-input order__field-submit" value="zamawiam" type="submit" />
+          </div>
+        </form>
+        <ul class="panel__summary summary">
+          <li class="summary__item summary__item--prototype">
+            <h3 class="summary__title">
+              <span class="summary__name">Białystok</span>
+              <strong class="summary__total-price">199PLN</strong>
+              <a href="" class="summary__btn-remove" title="usuń">X</a>
+            </h3>
+            <p class="summary__prices">dorośli: 1 x 99PLN, dzieci: 2 x 50PLN</p>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </body>
 </html>
