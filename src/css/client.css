@@ -3,3 +3,44 @@
 body {
 	font-family: "Poppins", sans-serif;
 }
+
+.panel {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1048px;
+	padding: 30px 0;
+}
+
+.panel__excursins {
+	width: 70%;
+}
+
+.excursions {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.excurions__item {
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+	width: calc(50% - 20px);
+}
+
+.panel__form {
+	background-color: #f4f4f4;
+	padding: 20px;
+	width: 30%;
+}
+
+.uploader, .order {
+	border-bottom: 1px solid #bbb;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.summary__item--prototype,
+.excursions__item--prototype {
+	display: none;
+}
